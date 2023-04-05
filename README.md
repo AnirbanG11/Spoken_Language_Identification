@@ -2,7 +2,7 @@
 
 This is an mxnet solution for the kaggle dataset ["Spoken Language Identification"](https://www.kaggle.com/toponowicz/spoken-language-identification). It uses a simple FFDNN to determine the language spoken in audio data containing human speech.
 
-The included program & model support classification of German, English, and Spanish speech.
+The included program & model support classification of Hindi, Bengali, Malayalam speech.
 
 ## Usage
 
