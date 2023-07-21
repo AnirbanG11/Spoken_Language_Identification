@@ -58,9 +58,9 @@ The following example infers language labels for a single example audio file:
 
 ```
 $ python3 splidnn.py infer --model model_epoch5 /tmp/de_example_file.flac 
-/tmp/de_example_file.flac DE,DE,DE,DE
+/tmp/de_example_file.flac HI,HI,HI,HI
 ```
 
 ## Results
 
-The results of the sample training run are included in `output.txt` as well as the best model/trainer pair `model_epoch5`, `trainer_epoch5`. We stop training after 5 epochs to avoid overfitting to the input dataset.
+The results of the sample training run are included in `output.txt` as well as the best model/trainer pair `model_epoch100`, `trainer_epoch100`. We stop training after 100 epochs to avoid overfitting to the input dataset. The accuracy was calculated using new recordings.
